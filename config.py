@@ -1,9 +1,5 @@
-import os
-from dotenv import load_dotenv
 
-load_dotenv()  # Loads variables from .env
-
-TOGETHER_API_KEY = os.getenv("TOGETHER_API_KEY")
+TOGETHER_API_KEY ="tgp_v1_Ricj_XpktXQOUFfd5il2uwbcXG_XHqdE2p9qjTRnB7E"
 
 # Shark Tank Configuration
 MIN_VALUATION = 1000
