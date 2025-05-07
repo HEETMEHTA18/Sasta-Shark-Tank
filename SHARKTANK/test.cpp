@@ -124,4 +124,4 @@ int main() {
     
     cout << "\nThank you for using Sasta Shark Tank Simulator!\n";
     return 0;
-}
+}   
