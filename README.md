@@ -12,13 +12,8 @@
   The investor's responses are generated using the Together AI API, providing realistic counter-offers, reasoning, questions, and concerns.
 
 - **Modular Design:**  
-  - **config.py:** Stores configuration settings and API key.
   - **main.py:** Entry point for the interactive simulation.
   - **shark_ai.py:** Contains the logic to interface with the Together AI API.
-  - **negotiation.py:** (Optional) Supports a multi-turn negotiation simulation.
-  - **together_ai_chat.py:** Demonstrates streaming API responses.
-  - **shark_tank_calculator.cpp:** A C++ tool for basic valuation comparisons.
-
 ## Setup
 
 1. **Clone the Repository:**
@@ -41,17 +36,13 @@
 
 4. **Run the Simulator:**
    ```bash
-   python negotiations.py
+   python main.py
    ```
 
-## Project Structure
+## Project Structure:
 
-- **config.py:** Contains configuration settings and loads the API key from the `.env` file.
 - **main.py:** The main interactive script where the entrepreneur enters their pitch.
 - **shark_ai.py:** Interacts with the Together AI API to generate investor responses.
-- **negotiation.py:** (Optional) Provides an extended negotiation with multiple rounds.
-- **together_ai_chat.py:** Example script demonstrating streaming API responses.
-- **shark_tank_calculator.cpp:** A C++ program for basic investor valuation comparisons.
 - **requirements.txt:** Lists Python dependencies.
 - **.env:** Stores sensitive environment variables (not committed to Git).
 
@@ -60,7 +51,7 @@
 Run the simulation by executing:
 
 ```bash
-python negotiations.py
+python main.py
 ```
 
 ## Acknowledgements
